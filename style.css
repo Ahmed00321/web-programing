@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+:root {
+	--colorone: #ddd;
+	--darkblue: darkblue;
+	--cyan: cyan;
+}
+
+.page {
+	width: 800px;
+	margin: 200px auto;
+	border: 1px solid var(--colorone);
+}
+.page-text {
+	padding: 10px;
+	width: fit-content;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: var(--cyan);
+	padding: 10px;
+}
+.navbar a {
+	color: var(--darkblue);
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 10px;
+}
+a:hover {
+	color: red;
+}
+.logo {
+	margin-right: 40px;
+}
+.main {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	background-color: var(--cyan);
+	padding: 20px;
+	border-radius: 5px;
+	color: var(--darkblue);
+	height: 300px;
+	justify-content: center;
+}
+form input[type="text"] {
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid var(--darkblue);
+}
+form input[type="submit"] {
+	width: fit-content;
+	margin: 15px auto;
+	padding: 10px 20px;
+	font-size: 17px;
+	color: white;
+	border: none;
+	background: var(--darkblue);
+	border-radius: 3px;
+}
+.footer {
+	color: white;
+	background: var(--darkblue);
+	padding: 10px;
+}
